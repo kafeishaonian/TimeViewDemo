@@ -1,6 +1,6 @@
 package com.hongmingwei.timeview;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.RelativeLayout;
@@ -15,7 +15,7 @@ import java.util.Locale;
 /**
  * Created by hongmingwei on 2016/6/5 18:55
  */
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends Activity implements View.OnClickListener {
 
     private RelativeLayout selectDate, selectTime;
     private TextView currentDate, currentTime;
